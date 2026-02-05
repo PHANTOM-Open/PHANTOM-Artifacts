@@ -1,0 +1,34 @@
+# Git LFS tracking for large files
+# Videos and APKs can be large, consider using Git LFS
+
+# Video files
+*.mp4 filter=lfs diff=lfs merge=lfs -text
+
+# Large binary files
+*.apk filter=lfs diff=lfs merge=lfs -text
+*.ipa filter=lfs diff=lfs merge=lfs -text
+
+# Standard text files
+*.md text
+*.txt text
+*.xml text
+*.json text
+*.py text
+*.java text
+*.swift text
+
+# Keep line endings for scripts
+*.sh text eol=lf
+*.bat text eol=crlf
+
+# Binary files
+*.zip binary
+*.xlsx binary
+*.pdf binary
+*.png binary
+*.jpg binary
+*.gif binary
+
+# Crash logs (treat as text for easy viewing)
+*.log text
+*.ips text

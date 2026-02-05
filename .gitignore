@@ -1,0 +1,71 @@
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Linux
+*~
+.nfs*
+
+# IDE and Editor files
+.idea/
+.vscode/
+*.swp
+*.swo
+*.sublime-project
+*.sublime-workspace
+
+# Build outputs (keep pre-built artifacts, ignore local builds)
+build/
+*.class
+*.dex
+*.o
+*.so
+
+# Temporary files
+*.tmp
+*.temp
+*.log.bak
+
+# Local configuration
+local.properties
+*.local
+
+# Sensitive information (should not be in repo)
+*.keystore
+*.jks
+*.p12
+*.mobileprovision
+*.provisionprofile
+
+# Large files that should use Git LFS
+# (videos are kept for artifact evaluation)
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.Python
+env/
+venv/
+
+# Node.js
+node_modules/
+
+# Archives (source zips are intentionally included)
+# *.zip  # Commented out - we include source zips
+
+# Note: The following are intentionally tracked for artifact evaluation:
+# - *.apk (Android artifacts)
+# - *.ipa (iOS artifacts)
+# - *.mp4 (demonstration videos)
+# - *.zip (source code archives)
+# - *.xlsx (evaluation results)
+# - *.log (crash logs)
+# - *.ips (iOS crash reports)
