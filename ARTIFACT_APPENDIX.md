@@ -6,9 +6,9 @@ Artifacts for **"PHANTOM: Undermining Mobile System Availability via Malformed I
 
 Contents:
 - Pre-built attack artifacts (APK/IPA)
-- Source code for all artifacts
+- Source code and build materials for artifacts
 - Crash logs and demonstration videos
-- Evaluation spreadsheets (849 tested fields)
+- Evaluation spreadsheets (979 tested fields)
 
 ## Claims Supported
 
